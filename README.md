@@ -45,6 +45,10 @@ Test file:
 3. Run requests individually, or use Collection Runner
 4. Verify tests pass in the **Tests** tab output
 
+## Demo Sources
+- UI Demo App: https://www.saucedemo.com
+- API Demo: https://reqres.in
+
 This repository contains original automation scripts created for
 public demo applications using tools such as Selenium, Cypress,
 and Postman.
