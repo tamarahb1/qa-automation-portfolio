@@ -18,6 +18,22 @@ From the `selenium` folder, run:
 - Automated login test for Sauce Demo:
   - `selenium/test_login_saucedemo.py`
 
+## How to Run (Cypress)
+
+### Prerequisites
+- Node.js installed
+- Cypress installed:
+  - `npm install cypress --save-dev`
+
+### Run Cypress
+- Open Cypress runner:
+  - `npx cypress open`
+- Or run headless:
+  - `npx cypress run`
+
+Test file:
+- `cypress/saucedemo_login.cy.js`
+
 This repository contains original automation scripts created for
 public demo applications using tools such as Selenium, Cypress,
 and Postman.
