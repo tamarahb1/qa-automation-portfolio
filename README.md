@@ -1,57 +1,66 @@
 # QA Automation Portfolio
 
-## How to Run (Selenium)
+This repository contains original automation scripts created for
+public demo applications using Selenium, Cypress, and Postman.
+
+All scripts are written for portfolio demonstration purposes only
+and do not include proprietary systems or employer-owned code.
+
+---
+
+## Demo Sources
+- UI Demo App: https://www.saucedemo.com
+- API Demo: https://reqres.in
+
+---
+
+## Selenium Automation (Python)
 
 ### Prerequisites
-- Python 3.x installed
-- Google Chrome installed
+- Python 3.x
+- Google Chrome
 - Selenium installed:
   - `pip install selenium`
 
-### Run the test
-From the `selenium` folder, run:
-- `python test_login_saucedemo.py`
+### How to Run
+1. Navigate to the selenium folder:
+   - `cd selenium`
 
-> Note: This is a portfolio demonstration using a public demo site.
+2. Run the test:
+   - `python test_login_saucedemo.py`
 
-## Selenium Examples
+### Example
 - Automated login test for Sauce Demo:
   - `selenium/test_login_saucedemo.py`
 
-## How to Run (Cypress)
+---
+
+## Cypress Automation (JavaScript)
 
 ### Prerequisites
 - Node.js installed
 - Cypress installed:
   - `npm install cypress --save-dev`
 
-### Run Cypress
-- Open Cypress runner:
+### How to Run
+- Open Cypress Test Runner:
   - `npx cypress open`
 - Or run headless:
   - `npx cypress run`
 
-Test file:
-- `cypress/saucedemo_login.cy.js`
+### Example
+- Cypress login test:
+  - `cypress/saucedemo_login.cy.js`
+
+---
 
 ## API Testing (Postman)
 
 ### Collection
 - `api-testing/reqres-postman-collection.json`
 
-### How to run
-1. Download and open Postman
+### How to Run
+1. Open Postman
 2. Import the collection JSON
-3. Run requests individually, or use Collection Runner
-4. Verify tests pass in the **Tests** tab output
-
-## Demo Sources
-- UI Demo App: https://www.saucedemo.com
-- API Demo: https://reqres.in
-
-This repository contains original automation scripts created for
-public demo applications using tools such as Selenium, Cypress,
-and Postman.
-
-All scripts are written for portfolio demonstration purposes and
-do not include proprietary systems or employer-owned code.
+3. Run requests individually or using Collection Runner
+4. Verify assertions pass in the **Tests** tab
