@@ -34,6 +34,17 @@ From the `selenium` folder, run:
 Test file:
 - `cypress/saucedemo_login.cy.js`
 
+## API Testing (Postman)
+
+### Collection
+- `api-testing/reqres-postman-collection.json`
+
+### How to run
+1. Download and open Postman
+2. Import the collection JSON
+3. Run requests individually, or use Collection Runner
+4. Verify tests pass in the **Tests** tab output
+
 This repository contains original automation scripts created for
 public demo applications using tools such as Selenium, Cypress,
 and Postman.
